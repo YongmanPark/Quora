@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    width: 100%;
+    position: static;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.qHeader_icons {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.qHeader_icon > .MuiSvgIcon-root {
+    color: yellowgreen;
+    font-size: xx-large;
+    cursor: pointer;
+    padding: 5px 10px;
+
+}
+
+.qHeader_icon > .MuiSvgIcon-root:hover {
+    color: black;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    transform: scale(1.1);
+}
+
+.qHeader_input {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    border: 1px solid lightgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.qHeader_input > input {
+    background-color: transparent;
+    outline: none;
+    width: 400px;
+    border: none;
+    color: rgb(49, 49, 49);
+}
